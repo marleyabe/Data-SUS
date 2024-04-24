@@ -30,7 +30,7 @@ def get_data():
             time.sleep(1)
         conteudo_text = conteudo.text
 
-        for j in range(2, 5*12+1):
+        for j in range(2, 5*12+2):
             data = driver.find_element(By.XPATH, f'/html/body/div/div/center/div/form/div[3]/div/select/option[{j+1}]')
             data.click()
             data_text = data.text
