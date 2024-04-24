@@ -55,7 +55,7 @@ def get_data():
             resultado = ''
 
             for row in dados:
-                resultado += row[0:6].replace('""', '') + ';' + row[7:len(row)].replace('-', '0').replace('""', '') + ';' + data_text.replace('/', ';') + ';' + conteudo_text +'\n'
+                resultado += row[0:6].replace('"', '') + ';' + row[7:len(row)].replace('-', '0').replace('"', '').replace(",", ".") + ';' + data_text.replace('/', ';') + ';' + conteudo_text +'\n'
 
             print(len(dados), data_text, conteudo_text)
 
