@@ -1,6 +1,9 @@
 # Data-SUS
 Esse é o projeto da máteria de Projeto Integrador 3 do curso de Ciência de Dados e Inteligência Artificial do IESB
 
+## Resumo
+O projeto envolveu a coleta, tratamento e análise de dados do site Data-SUS, referentes aos anos de 2019 a 2023. Os dados foram utilizados para avaliar a qualidade e características dos procedimentos de saúde. A análise demonstrou a viabilidade de usar esses dados para insights sobre a saúde pública.
+
 ## Web Scraping
 O Web Scraping (Raspagem de Dados) foi realizado utilizando a biblioteca Selenium, uma ferramenta de automação de navegador, com um código desenvolvido em Python, disponível no arquivo utils/get_data.py. Esse código acessa o site do Data-SUS para baixar os dados dos anos de 2019 a 2023, filtrando os dados com base no "Subgrupo de Procedimentos" e coletando informações como "Quantidade Aprovada" e "Valor Aprovado".
 
